@@ -79,7 +79,7 @@ def show_login_page():
                 基于深度学习的医学影像智能分析与辅助决策平台
             </h1>
             <p style="color: white; font-size: 1.5rem; font-weight: 600; text-shadow: 1px 2px 5px rgba(0,0,0,0.7);">
-                208210308 丁梓桓 &nbsp;&nbsp;&nbsp; 指导教师：王丽敏
+                XXXXXXXXX XXX &nbsp;&nbsp;&nbsp; 指导教师：XXX
             </p>
         </div>
     """, unsafe_allow_html=True)
