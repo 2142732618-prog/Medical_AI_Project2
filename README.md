@@ -4,6 +4,7 @@
 本项目基于Streamlit框架编写，集成医学图像展示、分割以及简单智能诊断功能
 
 内置模型包含：
+
 1.TotalSegmentator模型 参考项目地址：https://github.com/wasserth/TotalSegmentator.git
 
 2.自主训练器官模型
