@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (虚拟环境)
+.venv/
+venv/
+env/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+
+# 数据集与权重文件（医学数据体积大且敏感，严禁上传）
+data/
+datasets/
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+*.nii.gz
+*.nii
+*.pth
+*.pt
+*.pkl
+
+# 日志与临时文件
+*.log
+.ipynb_checkpoints/

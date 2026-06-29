@@ -1,0 +1,19 @@
+[server]
+# 1. 彻底禁用 XSRF 保护。
+enableXsrfProtection = true
+# 2. 显式设置上传上限为 2000MB
+maxUploadSize = 2000
+maxMessageSize = 2000
+
+# 3. 强制关闭跨域检查，防止网关拦截 Header
+enableCORS = true
+# 核心：关闭 WebSocket 压缩
+enableWebsocketCompression = true
+
+enableStaticServing = true
+
+[browser]
+# 4. 强制使用固定的 WebSocket 协议，防止在上传大文件时协议降级导致 400
+gatherUsageStats = false
+
+
